@@ -1,0 +1,50 @@
+@import 'bootstrap/scss/bootstrap';
+
+body {
+
+    font-family: 'Jost', sans-serif;
+
+
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+}
+
+.card {
+    box-shadow: $box-shadow-sm;
+}
+
+.banner {
+    height: 500px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: $box-shadow-sm;
+    background: url('/header.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.highlight {
+    color: #FF7300;
+}
+
+.btn-custom {
+    background-color: #FF7300;
+    color: white;
+}
+
+.btn-primary-outline {
+    background: transparent;
+    border-color: #FF7300;
+    color: #FF7300;
+
+}
+
+.btn:hover {
+    background-color: #FF7300;
+    color: white;
+}
